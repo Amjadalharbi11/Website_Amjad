@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #a7af4c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #333; /* اللون الافتراضي */
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2); /* تكبير الأيقونة عند التمرير */
+  }
+  
+  .social-icons .facebook:hover {
+    color: #3b5998; /* لون Facebook */
+  }
+  
+  .social-icons .instagram:hover {
+    color: #e4405f; /* لون Instagram */
+  }
+  
+  .social-icons .twitter:hover {
+    color: #1da1f2; /* لون Twitter */
+  }
